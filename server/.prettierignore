@@ -1,0 +1,23 @@
+# build output
+dist/
+build/
+
+# deps
+node_modules/
+
+# env & logs
+.env*
+*.log
+npm-debug.log*
+
+# misc
+coverage/
+.vscode/
+
+# lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# generated
+*.d.ts

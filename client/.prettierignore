@@ -1,0 +1,29 @@
+# build output
+.next/
+out/
+build/
+dist/
+
+# deps
+node_modules/
+
+# env & logs
+.env*
+*.log
+npm-debug.log*
+
+# misc
+.vercel/
+.turbo/
+coverage/
+public/
+next-env.d.ts
+
+# lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# generated
+*.min.js
+*.min.css
